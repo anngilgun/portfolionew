@@ -1,6 +1,12 @@
 :root {
   --primary-color: #4200ff;
 }
+body {
+  margin: 40px 140px;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+}
 .container-fluid {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
@@ -13,15 +19,12 @@
   margin-top: 140px;
   line-height: 109px;
 }
-.anna {
-  margin-left: 140px;
-}
+
 .front {
-  margin-left: 287px;
+  margin-left: 147px;
   color: var(--primary-color);
 }
 .graph {
-  margin-left: 140px;
   color: var(--primary-color);
   margin-bottom: 66px;
 }
@@ -31,7 +34,7 @@
   font-weight: 500;
   font-size: 40px;
   line-height: 45px;
-  margin-left: 140px;
+
   color: #000000;
 }
 .getintouch .arrow {
@@ -40,4 +43,94 @@
 }
 .getintouch:hover {
   color: var(--primary-color);
+}
+p {
+  font-family: "Cousine", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 80px;
+}
+hr {
+  border-width: 3px;
+  background: black;
+  opacity: 100;
+}
+.row {
+  margin-top: 40px;
+}
+.col p {
+  text-align: left;
+}
+.mb-3 {
+  font-family: "Poppins";
+}
+.primary-link {
+  padding: 8px 12px;
+  font-family: "Poppins";
+  text-decoration: none;
+  font-size: 20px;
+}
+.primary-link:hover {
+  color: var(--primary-color);
+  font-size: 24px;
+}
+.col p {
+  text-transform: none;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 550;
+  font-family: "Poppins";
+}
+.text {
+  margin-top: 210px;
+}
+.text2 {
+  margin-top: 190px;
+}
+.text3 {
+  margin-top: 170px;
+}
+.mb-3 h2 {
+  margin-bottom: 8px;
+}
+@media (max-width: 600px) {
+  .name {
+    font-size: 48px;
+    line-height: 40px;
+    padding: 0;
+    text-align: left;
+  }
+  body {
+    margin: 5px 10px;
+  }
+  .front {
+    margin: 10px 10px;
+  }
+  .graph {
+    margin: 10px 10px;
+  }
+  .anna {
+    margin: 10px 10px;
+  }
+  .getintouch {
+    font-size: 20px;
+    margin: 10px 10px;
+  }
+  p {
+    margin-top: 30px;
+  }
+  .col {
+    margin-top: 0;
+    padding-top: 10px;
+  }
+  .col p {
+    margin-bottom: 0;
+  }
+  .primary-link {
+    font-size: 18px;
+  }
 }
