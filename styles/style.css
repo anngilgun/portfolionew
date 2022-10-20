@@ -1,10 +1,16 @@
-:root {--primary-color: #4200FF;
-;
+:root {
+  --primary-color: #4200ff;
+}
+.container-fluid {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: #000000;
+}
 .name {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 96px;
-  margin-top: 169px;
+  margin-top: 140px;
   line-height: 109px;
 }
 .anna {
@@ -16,5 +22,22 @@
 }
 .graph {
   margin-left: 140px;
+  color: var(--primary-color);
+  margin-bottom: 66px;
+}
+.getintouch {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 45px;
+  margin-left: 140px;
+  color: #000000;
+}
+.getintouch .arrow {
+  text-decoration: none;
+  width: 32px;
+}
+.getintouch:hover {
   color: var(--primary-color);
 }
