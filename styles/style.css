@@ -4,7 +4,8 @@
 body {
   margin: 40px 140px;
 }
-h2 {
+h2,
+h1 {
   font-family: "Poppins", sans-serif;
 }
 .container-fluid {
@@ -120,7 +121,7 @@ hr {
     font-size: 20px;
     margin: 10px 10px;
   }
-  p {
+  .col p {
     margin-top: 30px;
   }
   .col {
@@ -133,4 +134,26 @@ hr {
   .primary-link {
     font-size: 18px;
   }
+  .about-section img {
+    margin-top: 20px;
+    width: 350px;
+  }
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 70px;
+}
+.about-section h2 {
+  font-size: 30px;
+  color: var(--primary-color);
+}
+.about-section p {
+  font-family: "Cousine", monospace;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 24px;
+}
+
+.about-section {
+  margin-top: 120px;
 }
