@@ -1,5 +1,6 @@
 :root {
   --primary-color: #4200ff;
+  --second-font: "Cousine", monospace;
 }
 body {
   margin: 40px 140px;
@@ -46,7 +47,7 @@ h1 {
   color: var(--primary-color);
 }
 p {
-  font-family: "Cousine", monospace;
+  font-family: var(--second-font);
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -56,7 +57,7 @@ p {
   margin-top: 80px;
 }
 hr {
-  border-width: 3px;
+  border-width: 2px;
   background: black;
   opacity: 100;
 }
@@ -136,7 +137,7 @@ hr {
   }
   .about-section img {
     margin-top: 20px;
-    width: 350px;
+    width: 340px;
   }
 }
 .about-section h1 {
@@ -148,7 +149,7 @@ hr {
   color: var(--primary-color);
 }
 .about-section p {
-  font-family: "Cousine", monospace;
+  font-family: var(--second-font);
   text-transform: uppercase;
   text-align: left;
   font-size: 24px;
@@ -156,4 +157,22 @@ hr {
 
 .about-section {
   margin-top: 120px;
+}
+.description {
+  font-family: var(--second-font);
+  text-transform: uppercase;
+  margin-top: 120px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.skills {
+  font-family: var(--second-font);
+  text-transform: uppercase;
+  font-weight: 300;
+  color: rgba(95, 95, 95, 0.7);
+
+  padding-left: 12px;
+  line-height: 1.5;
+  font-size: 18px;
 }
