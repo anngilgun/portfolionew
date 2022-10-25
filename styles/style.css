@@ -154,6 +154,9 @@ hr {
   .description {
     margin-top: 10px;
   }
+  .contact {
+    display: inline;
+  }
 }
 .about-section h1 {
   font-size: 64px;
@@ -191,4 +194,21 @@ hr {
 
   line-height: 1.5;
   font-size: 18px;
+}
+.contact p {
+  font-family: var(--second-font);
+  color: rgba(95, 95, 95, 0.7);
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.contact h2 {
+  font-size: 50px;
+}
+.contact a {
+  color: #000000;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.contact a:hover {
+  color: var(--primary-color);
 }
