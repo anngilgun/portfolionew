@@ -46,7 +46,7 @@ h1 {
 .getintouch:hover {
   color: var(--primary-color);
 }
-p {
+.prodj p {
   font-family: var(--second-font);
   font-style: normal;
   font-weight: 400;
@@ -54,7 +54,7 @@ p {
   line-height: 27px;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 80px;
+  margin-top: 70px;
 }
 hr {
   border-width: 2px;
@@ -139,6 +139,18 @@ hr {
     margin-top: 20px;
     width: 340px;
   }
+  .col-md-6 img {
+    margin-left: -24px;
+  }
+  .about-section-content a {
+    margin-top: 0;
+  }
+  .about-section p {
+    margin-bottom: 18px;
+  }
+  .description {
+    margin-top: 25px;
+  }
 }
 .about-section h1 {
   font-size: 64px;
@@ -152,7 +164,9 @@ hr {
   font-family: var(--second-font);
   text-transform: uppercase;
   text-align: left;
-  font-size: 24px;
+  font-size: 20px;
+  margin-bottom: 80px;
+  margin-top: 20px;
 }
 
 .about-section {
@@ -172,7 +186,9 @@ hr {
   font-weight: 300;
   color: rgba(95, 95, 95, 0.7);
 
-  padding-left: 12px;
   line-height: 1.5;
   font-size: 18px;
+}
+.col-md-6 img {
+  margin-left: 140px;
 }
