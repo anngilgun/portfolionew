@@ -135,6 +135,9 @@ hr {
   font-size: 30px;
   color: var(--primary-color);
 }
+p {
+  font-family: var(--second-font);
+}
 .about-section p {
   font-family: var(--second-font);
   text-transform: uppercase;
@@ -258,6 +261,6 @@ footer a:hover {
     display: inline;
   }
   footer {
-    margin-top: 30px;
+    margin-top: 50px;
   }
 }
